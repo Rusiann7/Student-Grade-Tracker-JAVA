@@ -20,7 +20,7 @@ public class Forlogindb {
        
         //LocalDateTime td = LocalDateTime.now();
         
-        String url = "jdbc:mysql://localhost:8181/Usernm";
+        String url = "jdbc:mysql://localhost: / ";
         String user = "root";
         String password = "";
  
