@@ -16,7 +16,7 @@ public class Acctdb {
         ResultSet resultset = null;
         
         
-        String url = "jdbc:mysql://localhost:8181/Usernm";
+        String url = "jdbc:mysql://localhost: / ";
         String user = "root";
         String password = "";
 
