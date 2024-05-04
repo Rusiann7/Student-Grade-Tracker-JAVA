@@ -46,9 +46,9 @@ public class Acctdb {
                 int rowsAffected = preparedStatement.executeUpdate();
             
                  if (rowsAffected > 0) {
-                System.out.println("Data inserted successfully.");
+                System.out.println("Data inserted successfully to Users.");
                 } else {
-                System.out.println("Failed to insert data.");
+                System.out.println("Failed to insert data (Wrong Password).");
                 } 
                  
                  
@@ -69,9 +69,9 @@ public class Acctdb {
                 int rowsAffected1 = preparedStatement2.executeUpdate();
             
                  if (rowsAffected1 > 0) {
-                System.out.println("Data inserted successfully.");
+                System.out.println("Data inserted successfully to Contents.");
                 } else {
-                System.out.println("Failed to insert data.");
+                System.out.println("Failed to insert data (Database Error).");
                 }
                  
              }
