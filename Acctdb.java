@@ -15,8 +15,9 @@ public class Acctdb {
         Statement statement = null;
         ResultSet resultset = null;
         
-        
-        String url = "jdbc:mysql://localhost: / ";
+        // put the ngrok tunneling here the only change will be the port.
+        // put no spaces.
+        String url = "jdbc:mysql://0.tcp.ap.ngrok.io: /Usernm";
         String user = "root";
         String password = "";
 
