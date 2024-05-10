@@ -17,7 +17,7 @@ function start1(){
     sudo xhost + 
     sudo systemctl start apache2
     sudo ./xampp start
-    sudo ./manager-linux-x64.run & ngrok tcp 8181 
+    sudo ./manager-linux-x64.run & xterm -hold -e ngrok tcp 8181 
     exit 
 }
 start1
